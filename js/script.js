@@ -4,5 +4,5 @@ $('#navigation li a.submenu').on('click', function(){
 });
 
 $('#RSbutton').on('click', function(){
-    $('#contentContainer').load('file:///Users/dara/BHSAD/FMP/FMP%20Site/index_RSpanorama.html');
+    $('#contentContainer').load('index_RSpanorama.html');
 });
