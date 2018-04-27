@@ -4,5 +4,9 @@ $('#navigation li a.submenu').on('click', function(){
 });
 
 $('#RSbutton').on('click', function(){
-    $('#contentContainer').load('https://raw.githubusercontent.com/deridara/accumulated-changes/master/index_RSpanorama.html');
+        $('#contentContainer').load('https://raw.githubusercontent.com/deridara/accumulated-changes/master/content.html #panoramaContainer');
+});
+
+$('#BFbutton').on('click', function(){
+        $('#contentContainer').load('https://raw.githubusercontent.com/deridara/accumulated-changes/master/content.html #breakfastContainer');
 });
