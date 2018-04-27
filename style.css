@@ -97,3 +97,10 @@
 #RSpanorama {
     height: 790px;
 }
+
+#breakfastContainer {
+    margin-left: 300px;
+    float: left;
+    height: 800;
+    width: auto;
+}
