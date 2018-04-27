@@ -1,0 +1,99 @@
+:root {
+    --navigation-hover-color: #F3A78F;
+    --navigation-bg-color: #FFC29C;
+}
+
+#navContainer {
+    width: 300px;
+    height: 100vh;
+    left: 0px;
+    background: var(--navigation-bg-color);
+    position: fixed;
+    float: left;
+    margin-top: -10px;
+}
+
+#navigation {
+    margin-top: 100px;
+    position: absolute;
+    vertical-align: middle;
+}
+
+#navigation, #navigation ul{
+/*    list-style: none;*/
+    padding: 0;
+    width: 300px;
+    
+}
+
+#navigation ul {
+    position: relative;
+/*    z-index: -1;*/
+}
+
+#navigation li {
+    position: relative; /*для выпалающего меню*/
+/*    z-index: 100;*/
+}
+
+#navigation li a {
+    color: black;
+    background: var(--navigation-bg-color);
+    padding: 0 10px 0 10px;;
+    font-family: "georgia", sans-serif;
+    font-size: 18px;
+    line-height: 50px;
+    display: block; /* чтобы закрашивался весь прямоугольник, а не только текст */
+    text-align: center;
+    text-decoration: none; /* убрать подчеркивание ссылок */
+}
+
+#navigation li a.submenu.activeMenu {
+    list-style-type: circle;
+}
+
+/*
+#navigation ul li {
+    margin-top: -50px;
+     -webkit-transition: 0.4s linear 0.4s;
+    transition: 0.4s linear 0.4s;
+}
+*/
+
+#navigation li a:hover {
+    background: var(--navigation-hover-color);
+} /*ajax*/ 
+
+#navigation li a:focus {
+    background: var(--navigation-hover-color);
+}
+
+#navigation ul li a {
+    background-color: 0; /* цвет фона */
+    border-bottom: 0; /* линия толщиной в 1px серого цвета внизу подменю */
+    color:#000; /* шрифт (белый) */
+    font-size:14px; /* размер шрифта */
+    line-height: 50px; /* задаем межстрочный интервал */
+    background: var(--navigation-bg-color);
+}
+
+#navigation ul li a:hover {
+    background: var(--navigation-hover-color);
+}
+
+#navigation ul li a:focus {
+    background: var(--navigation-hover-color);
+}
+
+#panoramaContainer {
+    margin-left: 300px;
+    float: left;
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#RSpanorama {
+    height: 790px;
+}
