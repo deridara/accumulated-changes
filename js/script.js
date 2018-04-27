@@ -4,5 +4,5 @@ $('#navigation li a.submenu').on('click', function(){
 });
 
 $('#RSbutton').on('click', function(){
-    $('#contentContainer').load('index_RSpanorama.html');
+    $('#contentContainer').load('https://raw.githubusercontent.com/deridara/accumulated-changes/master/index_RSpanorama.html');
 });
